@@ -3,7 +3,7 @@ package be.howest.tomdobbelaere;
 /**
  * Created by tomdo on 30/09/2017.
  */
-public class AddOperation {
+public class AddOperation implements Operation<Integer> {
     private int opA;
     private int opB;
 
@@ -12,7 +12,7 @@ public class AddOperation {
         this.opB = opB;
     }
 
-    public int evaluate() {
+    public Integer evaluate() {
         return this.opA + this.opB;
     }
 }

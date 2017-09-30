@@ -18,7 +18,7 @@ public class AddOperationTest {
 
     @Test
     public void evaluate() throws Exception {
-        assertEquals(7, addOperation.evaluate());
+        assertEquals((Integer) 7, addOperation.evaluate());
     }
 
 }
