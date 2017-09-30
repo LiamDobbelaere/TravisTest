@@ -16,7 +16,7 @@ public class DogTest {
 
     @Test
     public void speak() throws Exception {
-        assertEquals("woofs", dog.speak());
+        assertEquals("woof", dog.speak());
     }
 
 }
